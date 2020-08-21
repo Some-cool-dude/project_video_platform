@@ -1,0 +1,61 @@
+.Users input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-image: url(/images/search.ico);
+  background-position: 5px 5px;
+  background-size: 30px, 30px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.Users input[type=text]:focus {
+  width: 100%;
+}
+
+.Users table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.Users th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+.Users tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.Users .center {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination button {
+  color: black;
+  border: none;
+  float: left;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination button#active {
+  background-color: darkcyan;
+  color: white;
+}
+
+.pagination button:hover:not(#active) {background-color: #ddd;} 

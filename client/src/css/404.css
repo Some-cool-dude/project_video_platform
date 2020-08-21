@@ -1,0 +1,47 @@
+.PageNotFound {
+    background-image: url(/images/space.jpeg);
+} 
+
+.PageNotFound div{
+    display: inline-block;
+    color: white;
+    font-size: 400px;
+}
+
+.PageNotFound a {
+    color:white;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+.PageNotFound .space {
+    height: 100px;
+}
+
+.PageNotFound .eye {
+    position: relative;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s all;
+  }
+  
+.PageNotFound .eye #pupil {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 110px;
+    height: auto;
+    transform: translate(-50%, -50%);
+  }
+
+.PageNotFound .eye:hover{
+      opacity: 0;
+  }

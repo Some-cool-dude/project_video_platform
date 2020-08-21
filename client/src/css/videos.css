@@ -1,0 +1,94 @@
+.Videos input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-image: url(/images/search.ico);
+  background-position: 5px 5px;
+  background-size: 30px, 30px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.Videos input[type=text]:focus {
+  width: 100%;
+}
+
+.Videos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.Videos ul li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+  }
+  
+.Videos li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 16px;
+  }
+  
+.Videos ul li:hover {
+    background-color: #eee;
+  }
+
+  .Videos h1 {
+  text-align: center;
+}
+
+.Videos form {
+  display: inline;
+}
+
+.Videos .center{
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination button {
+  color: black;
+  border: none;
+  float: left;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination button.active {
+  background-color: darkcyan;
+  color: white;
+}
+
+.pagination button:hover:not(.active) {background-color: #ddd;} 
+
+ .Videos .btn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    background-color: #eee;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .Videos .btn:hover {
+    color: white;
+    background-color: darkcyan;
+  }

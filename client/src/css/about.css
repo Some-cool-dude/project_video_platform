@@ -1,0 +1,13 @@
+.About #ava {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+.About  #ava:hover {
+    transform: scaleX(-1);
+  }

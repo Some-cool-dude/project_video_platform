@@ -1,0 +1,18 @@
+.API * {
+    color:darkcyan;
+}
+.API a {
+    text-decoration: none;
+}
+.API #warning {
+    color: red;
+}
+.API p {
+    font-weight: bold;
+}
+.API table {
+    border-collapse: collapse;
+}
+.API table, th, td {
+    border: 1px solid darkcyan;
+}

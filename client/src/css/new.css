@@ -1,0 +1,124 @@
+.New .files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+    background-color: #f2f2f2;
+}
+
+.New .files input:focus{
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    border:1px solid #92b0b3;
+ }
+
+ .New .files{
+    position:relative;
+}
+
+.New .files:after { 
+    pointer-events: none;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.New .files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.New input[type=text], input[type=number], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    resize: vertical;
+  }
+  
+  .New label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .New input[type=submit] {
+    background-color: darkcyan;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .New .col-md-6 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .New {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .New .col-25 {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+    margin-top: 6px;
+  }
+  
+  .New .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .New .col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    text-align: center;
+  }
+  
+  .New .line:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .New .col-25, .col-75, .col-50, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  } 
